@@ -4,9 +4,9 @@
   * Sensor configuration
 
 ### **Tasks not yet completed**
-  * Confirm if the part has to be in the tray to be checked or it can just be "shown" to QC
-  * Arm1 drops good products into the left-most-bin
-  * Building kit
+  * Change the QC check procedure
+  * If good, correct the pose (or place in correct pose in first place)
+  * If bad, finding a good part to replace. // can leave it for now, if we take for granted, that graders won't change sample_user.yaml
 
 
 ### **How to build package**
