@@ -1,6 +1,3 @@
-//
-// Created by zeid on 2/27/20.
-//
 #include "RobotController.h"
 
 /**
@@ -286,7 +283,15 @@ bool RobotController::DropPart(geometry_msgs::Pose part_pose) {
          this->GripperToggle(false);
     }
 
+<<<<<<< Updated upstream
     drop_flag_ = false;
+=======
+    drop_flag_ = false; // Dropping process completed! Dropping successful
+    ros::Duration(0.5).sleep(); // I hope in this period gripper_state_ gets updated.
+
+    ROS_INFO_STREAM("[RobotController]:[DropPart]: After dropping Gripper State : " << gripper_state_);
+//    ROS_INFO_STREAM("[RobotController]:[DropPart]: After dropping Activated or not? " << int(gripper_service_.response.success));
+>>>>>>> Stashed changes
     return gripper_state_;
 }
 
