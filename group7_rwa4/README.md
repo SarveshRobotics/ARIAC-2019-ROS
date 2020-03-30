@@ -1,11 +1,11 @@
 ### **Tasks have been completed**
   * Framework of arm2 grabbing, go to checking pose, and putting back gears from gear bin corresponding to the order
   * Framework of arm1 grabbing, go to checking pose from the belt
+  * Arm1 drops good products into the left-most-bin
   * Sensor configuration
 
 ### **Tasks not yet completed**
-  * Confirm if the part has to be in the tray to be checked or it can just be "shown" to QC
-  * Arm1 drops good products into the left-most-bin
+  * Arm1 needs to pick good gears from Bin and put to tray.
   * Building kit
 
 
